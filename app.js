@@ -26,7 +26,7 @@ const app = Vue.createApp({
                     precioOriginal: 95000,
                     stock: true,
                     favorito: false,
-                    imagen: 'IMG/base.jpg'
+                    imagen: 'IMG/Base.jpg'
                 },
                 {
                     id: 3,
@@ -148,6 +148,7 @@ const app = Vue.createApp({
 
 
 app.mount('#app')
+
 
 
 

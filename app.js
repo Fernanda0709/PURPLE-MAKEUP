@@ -26,7 +26,7 @@ const app = Vue.createApp({
                     precioOriginal: 95000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/base.jpg'
+                    imagen: 'IMG/base.jpg'
                 },
                 {
                     id: 3,
@@ -35,7 +35,7 @@ const app = Vue.createApp({
                     precioOriginal: 120000,
                     stock: false,
                     favorito: false,
-                    imagen: 'img/sombras.jpg'
+                    imagen: 'IMG/sombras.jpg'
                 },
                 {
                     id: 4,
@@ -44,7 +44,7 @@ const app = Vue.createApp({
                     precioOriginal: 55000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/rubor.jpg'
+                    imagen: 'IMG/rubor.jpg'
                 },
                 {
                     id: 5,
@@ -53,7 +53,7 @@ const app = Vue.createApp({
                     precioOriginal: 75000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/iluminador.jpg'
+                    imagen: 'IMG/iluminador.jpg'
                 },
                 {
                     id: 6,
@@ -62,7 +62,7 @@ const app = Vue.createApp({
                     precioOriginal: 45000,
                     stock: false,
                     favorito: false,
-                    imagen: 'img/brochas.jpg'
+                    imagen: 'IMG/brochas.jpg'
                 },
                 {
                     id: 7,
@@ -71,7 +71,7 @@ const app = Vue.createApp({
                     precioOriginal: 65000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/contorno.jpg'
+                    imagen: 'IMG/contorno.jpg'
                 },
                 {
                     id: 8,
@@ -80,13 +80,11 @@ const app = Vue.createApp({
                     precioOriginal: 35000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/gloss.jpg'
+                    imagen: 'IMG/gloss.jpg'
                 }
             ]
         }
     },
-
-    // Auto-avance del carrusel al montar la app
     mounted() {
         setInterval(() => {
             this.nextSlide()
@@ -150,5 +148,6 @@ const app = Vue.createApp({
 
 
 app.mount('#app')
+
 
 

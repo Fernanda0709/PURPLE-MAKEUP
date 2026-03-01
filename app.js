@@ -1,7 +1,3 @@
-// ════════════════════════════════
-//   PURPLE MAKEUP — app.js
-// ════════════════════════════════
-
 const app = Vue.createApp({
 
     data() {
@@ -21,7 +17,7 @@ const app = Vue.createApp({
                     precioOriginal: 65000,
                     stock: true,
                     favorito: false,
-                    imagen: 'img/labial.jpg'
+                    imagen: 'IMG/labial.jpg'
                 },
                 {
                     id: 2,
@@ -151,5 +147,6 @@ const app = Vue.createApp({
     }
 
 })
+
 
 app.mount('#app')
